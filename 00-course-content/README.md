@@ -1,118 +1,97 @@
-# SQL and PostgreSQL: The Complete Developer's Guide
+# Spring & Hibernate for Beginners (includes Spring Boot)
 
-Become an expert with SQL and PostgreSQL! Store and fetch data, tune queries, and design efficient database structures!
-Instructor: Stephen Grider
+Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate
+Instructor: Chad Darby
 Course Repository:
+Course Link: https://www.udemy.com/course/spring-hibernate-tutorial/
 
 ## What you'll learn
 
-- Master the fundamentals of relational databases
-- Design fast and efficient databases using the latest technologies
-- Learn and apply multiple database design patterns
-- Understand how PostgreSQL stores information at the hardware level
-- Build common app features, such as a 'like' and 'mention' systems
-- Advance your database designs using schema migrations
-- Acquire the skills necessary to obtain a database administrator (DBA) or database developer job
-- Practice your skills with many quizzes, projects, and built-in exercises
-- Optimize queries for superb read and write efficiency
-- Connect PostgreSQL to front-end apps using an API
-- Handle complex concurrency issues and race conditions
-- See how to use PostgreSQL to speed up automated tests
+- Develop a REAL-TIME project with Spring MVC, Spring REST, Spring Boot and Hibernate CRUD ... all from SCRATCH
+- LEARN key Spring 5 features: Core, Annotations, Java Config, AOP, Spring MVC, Hibernate and Maven
+- POPULAR VIDEOS for: Spring Boot 2, Spring Security, Spring REST, Spring Data JPA, Spring Data REST and Thymeleaf
 
 ## Course content
 
-37 sections • 290 lectures • 22h 13m total length
+83 sections • 568 lectures • 42h 25m total length
 
-- Simple - But Powerful - SQL Statements
-- Filtering Records
-- Working with Tables
-- Relating Rcords
-- Aggregation of Records
-- Working with Large Datasets
-- Sorting Records
-- Unions and Intersections with Sets
-- Assembling Queries with SubQueries
-- Selecting Distinct Records
-- Utility Operators, Keywords, and Functions
-- Local PostgreSQL Installation
-- PostgreSQL Complex Datatypes
-- Database-Side Validation and Constraints
-- Database Structure Design Patterns
-- How to Build a 'Like' System
-- How to Build a 'Mention' System
-- How to Build a 'Hashtag' System
-- How to Design a 'Follower' System
-- Implementing Database Design Patterns
-- Approaching and Writing Complex Queries
-- Understanding the Internals of PostgreSQL
-- A look at Indexes for Performance
-- Basic Query Tuning
-- Advanced Query Tuning
-- Simple Common Table Expressions
-- Recursive Common Table Expressions
-- Simplifying Queries with Views
-- Optimizing Queries with Materialized Views
-- Handling Concurrency and Reversibility with Transactions
-- Managing Database Design with Schema Migrations
-- Schema vs Data Migrations
-- Accessing PostgreSQL from API's
-- Data Access Pattern - Repositories
-- Security Around PostgreSQL
-- Bonus!
+- Course Introduction
+- Spring Overview
+- Setting Up Your Development Enviroment
+- Spring Inversion of Control - XML Configuration
+- Spring Dependency Injection - XML Configuration
+- Spring Bean Scopes and Lifecyle
+- Spring Configuration with Java Annotations - Inversion of Control
+- Spring Configuration with Java Annotations - Dependency Injection
+- Spring Configuration with Java Annotations - Bean Scopes and Lifecycle Methods
+- Spring Configuration with Java Code (no xml)
+- Spring MVC - Building Spring Web Apps
+- Spring MVC - Creating Controllers and Views
+- Spring MVC - Request Params and Request Mappings
+- Spring MVC - Form Tags and Data Binding
+- Spring MVC Form Validation - Applying Built-In Validation Rules
+- Spring MVC Form Validation - Validating Number Ranges and Regular Expressions
+- Spring MVC Form Validation - Creating Custom Validation Rules
+- Introduction to Hibernate
+- Setting Up Hibernate Development Environment
+- Hibernate Configuration with Annotations
+- Hibernate CRUD Features: Create, Read, Update and Delete
+- Hibernate Advanced Mappings
+- Hibernate Advanced Mappings - @OneToOne
+- Hibernate Advanced Mappings - @OneToMany
+- Hibernate Advanced Mappings - Eager vs Lazy Loading
+- Hibernate Advanced Mappings - @OneToMany - Unidirectional
+- Hibernate Advanced Mappings - @ManyToMany
+- Build a Database Web App - Spring MVC and Hibernate Project - Part 1, 2, 3, 4, 5, 6
+- AOP: Aspect-Oriented Programming Overview
+- AOP: @Before Advice Type
+- AOP: Pointcut Expressions - Match Methods and Return Types
+- AOP: Pointcut Expressions - Match Method Parameter Types
+- AOP: Pointcut Declarations
+- AOP: Ordering Aspects
+- AOP: JoinPoints
+- AOP: @AfterReturning Advice Type
+- AOP: @AfterThrowing Advice Type
+- AOP: @After Advice Type
+- AOP: @Around Advice Type
+- AOP: Add AOP Logging to Spring MVC App - Real-Time Project
+- Maven Crash Course
+- Spring Security - Getting Started
+- Spring Security - Adding Custom Login Form
+- Spring Security - Bootstrap CSS Login Form
+- Spring Security - Adding Logout Support
+- Spring Security - Cross Site Request Forgery (CSRF)
+- Spring Security - User Roles
+- Spring Security - Restrict Access Based on Role
+- Spring Security - Add JDBC Database Authentication
+- Spring Security - Password Encryption
+- Spring REST - Overview
+- Spring REST - JSON Data Binding
+- Spring REST - Create a Spring REST Controller
+- Spring REST - Retrieve POJOs as JSON
+- Spring REST - Using @PathVariable for REST Endpoints
+- Spring REST - Exception Handling
+- Spring REST - API Design Best Practices
+- Spring REST - CRUD Database Real-Time Project - Overview
+- Spring REST - CRUD Database Real-Time Project - Get Customers
+- Spring REST - CRUD Database Real-Time Project - Exception Handling
+- Spring REST - CRUD Database Real-Time Project - Add Customer
+- Spring REST - CRUD Database Real-Time Project - Update Customer
+- Spring REST - CRUD Database Real-Time Project - Delete Customer
+- Spring REST - Extras
+- Spring Boot - Overview
+- Spring Boot - Spring Boot Dev Tools and Spring Boot Actuator
+- Spring Boot - Running Spring Boot Apps from the Command Line
+- Spring Boot - Application Properties
+- Spring Boot - Build a REST CRUD API with Hibernate - Real-Time Project
+- Spring Boot - Build a REST CRUD API with JPA - Real-Time Project
+- Spring Boot - Spring Data JPA - Real-Time Project
+- Spring Boot - Spring Data REST - Real-Time Project
+- Spring Boot - Thymeleaf
+- Spring Boot - Thymeleaf - Build HTML Tables
+- Spring Boot - Thymeleaf - CRUD Database Real-Time Project
+- Spring Boot - Thymeleaf - Security Extras
+- Summary
+- Appendix
 
-## Requirements
-
-- A Mac, PC, or Linux-based Computer
-
-## Description
-
-**Database structure design?** It's here. **Query tuning and optimization?** You'll master it. **Complex queries?** Yes indeed!
-
-**This is the only course online that will teach you how to design a database, store complex data, optimize your queries, everything that is needed for operating a production, scalable database!**
-
-Every app in the world, whether it is a mobile app built with Flutter, a web app constructed with React, or a plain HTML page, needs to store information in a database. Although there are many different databases you can use, PostgreSQL has been a number-one pick for decades, offering scalable performance, rock-solid uptime, and flexible design systems. **This course will teach you everything you need to know about PostgreSQL to use it on your next big project!**
-
-Don't know anything about databases at all? No problem. We begin with an overview of SQL, the language used to interact with PostgreSQL. Through an incredible number of exercises, you'll get practical, hands on experience working with realistic datasets. You will understand how to store, fetch, and update information with a series of powerful commands.
-
-After gaining experience with elementary operations, you will move on to understanding **database design patterns**, offering multiple ways to structure your database for efficient data modeling. You'll see many different scenarios with different types of data, and understand the pros and cons to several approaches.
-
-This course is **packed** with practice exercises and quizzes. You'll get immediate practice on all of the different topics and features that you learn! In addition, you'll understand exactly where to use each of these features in real and practical projects.
-
-Besides getting practical hands-on experience, you'll also get a behind-the-scenes look at how **PostgreSQL works internally**. We'll dive into raw data files, investigating how PostgreSQL stores information on your hard drive bit by bit. This knowledge is invaluable when it comes time to start tuning your queries for performance. By having a natural instinct of how PostgreSQL works, you can plan on being able to get every last bit of performance out of your database.
-
-Here is a partial list of some of the topics that are covered in this course:
-
-- Apply **powerful SQL commands** to store, update, and retrieve information
-
-- Build **relationships between records** using foreign keys between tables
-
-- Understand PostgreSQL's numerous **data types**, and when to use each
-
-- Assemble reports of business data by using **aggregation pipelines**
-
-- Work with **millions of records** to simulate real production queries
-
-- Exercise your query logic skills through the use of **sets and sorting operators**
-
-- Compose queries out of smaller reusable units using **subqueries**
-
-- Use different **design patterns** to efficiently model your data
-
-- See how to divide database objects into **different schemas** to maintain them more easily
-
-- Validate your data using simple **'check' rules**
-
-- Construct perfect designs for common features such as **'like', 'follow', and 'tag' systems**
-
-- Speed up your queries with **indexes** - you'll see exactly how they work behind the scenes!
-
-- Dive into some of the most complex queries around with **recursive common table expressions**
-
-- Deal with **concurrency** issues easily by applying transactions
-
-I made this course to be the perfect resource for engineers just getting started with their first database. Master the database itself, and see how to apply it with real designs. **Sign up today and master PostgreSQL!**
-
-## Who this course is for:
-
-- Application engineers seeking to expand their backend skillset
-- Any developers looking to understand databases
+## Folder 00: Course Introduction
